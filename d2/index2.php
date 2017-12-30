@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>JS + CSS Clock</title>
-		<link rel="stylesheet" href="styles">
+		<link rel="stylesheet" href="styles2/styles2.css">
 		<link rel="script" href="script.js">
 	</head>
 	<body>
