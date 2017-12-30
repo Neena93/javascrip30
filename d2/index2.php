@@ -3,13 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>JS + CSS Clock</title>
-		<link rel="css" href="styles.css">
+		<link rel="stylesheet" href="styles">
 		<link rel="script" href="script.js">
-
 	</head>
 	<body>
-
-
 		<div class="clock">
 			<div class="clock-face">
 				<div class="hand hour-hand"></div>
