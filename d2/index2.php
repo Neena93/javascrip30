@@ -33,5 +33,4 @@
 			setDate();
 		</script>
 	</body>
-	<script src="/d2/javascript/script.js"></script>
 </html>
