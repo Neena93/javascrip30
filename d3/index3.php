@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<script rel="scripts" src="script3.js"></script>
-		<link rel="styles" href="styles3.css"><link>
+		<link rel="stylesheet" href="styles3.css"><link>
 		<title>Scoped CSS Variables and JS</title>
 	</head>
 	<body>
