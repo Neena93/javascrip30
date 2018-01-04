@@ -6,6 +6,11 @@
 }
 img {
 	var(--spacing);
+	background: var(--base);
+	filter: blur(--blur);
+}
+.hl {
+	color: var(--base);
 }
 body {
 	text-align: center;
