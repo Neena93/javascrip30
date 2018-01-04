@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<script rel="scripts" src="script3.js"></script>
+		<link rel="styles" href="styles3.css"><link>
 		<title>Scoped CSS Variables and JS</title>
-		<link rel="styles" href="/d3/styles3/styles3.css"><link>
-<!--		<script src="/d3/javascript/script3.js"></script>-->
 	</head>
 	<body>
 		<h2>Update CSS Variables with <span class='hl'>JS</span></h2>
@@ -22,14 +22,6 @@
 
 		<img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
 
-		<script>
-			const inputs = document.querySelectorAll('.controls input');
-			function handleUpdate() {
-				const suffix = this.dataset.sizing || '';
-				document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
-			}
-			inputs.forEach(input => input.addEventListener('change', handleUpdate));
-			inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
-		</script>
+
 	</body>
 </html>
