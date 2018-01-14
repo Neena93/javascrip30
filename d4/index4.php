@@ -59,9 +59,15 @@
 				const nextGuy = b.passed = b.year;
 				return lastGuy > nextGuy ? -1 : 1;
 			});
+
+			const de = links.map (lin )
 			console.table(oldest);
 			// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
 			// https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+			const category = document.querySelector('.mw-category');
+			const links = category.querySelectorAll('a');
+
+			const de = link.map(link => link.tectContent);
 			// 7. sort Exercise
 			// Sort the people alphabetically by last name
 			// 8. Reduce Exercise
